@@ -1,0 +1,80 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Wedding Photography",
+      "description": "Capture your special day with beautiful, timeless photographs that tell your unique love story.",
+      "price": 1200,
+      "features": [
+        "Full day coverage",
+        "Second photographer",
+        "Online gallery",
+        "Print release",
+        "Engagement session included"
+      ],
+      "category": "wedding"
+    },
+    {
+      "id": 2,
+      "title": "Portrait Sessions",
+      "description": "Professional portraits for individuals, couples, families, and professionals.",
+      "price": 300,
+      "features": [
+        "1-hour session",
+        "Multiple locations",
+        "Online gallery",
+        "10 edited images",
+        "Professional retouching"
+      ],
+      "category": "portrait"
+    },
+    {
+      "id": 3,
+      "title": "Event Photography",
+      "description": "Document your corporate events, parties, celebrations, and special occasions.",
+      "price": 500,
+      "features": [
+        "Up to 4 hours coverage",
+        "Online gallery",
+        "Quick turnaround",
+        "Unlimited downloads",
+        "Professional editing"
+      ],
+      "category": "event"
+    },
+    {
+      "id": 4,
+      "title": "Commercial Photography",
+      "description": "Professional product and commercial photography for businesses and brands.",
+      "price": 800,
+      "features": [
+        "Studio setup",
+        "Product styling",
+        "Multiple angles",
+        "High-resolution images",
+        "Commercial usage rights"
+      ],
+      "category": "commercial"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah & Michael",
+      "text": "FocusFrame captured our wedding day perfectly! The photos are absolutely stunning and bring back all the emotions of that special day.",
+      "service": "wedding"
+    },
+    {
+      "id": 2,
+      "name": "The Johnson Family",
+      "text": "The family portrait session was so much fun! The photographer made us all feel comfortable and the results were beautiful.",
+      "service": "portrait"
+    },
+    {
+      "id": 3,
+      "name": "TechSolutions Inc.",
+      "text": "Professional, creative, and delivered exactly what we wanted for our corporate event. Highly recommended!",
+      "service": "event"
+    }
+  ]
+}
