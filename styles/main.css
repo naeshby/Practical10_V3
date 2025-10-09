@@ -19,7 +19,7 @@ body {
 
 .hero-section {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('https://placehold.co/1920x1080') center/cover no-repeat;
+                url('../components/img/header.jpg') center/cover no-repeat;
     color: white;
     padding: 150px 0;
     text-align: center;

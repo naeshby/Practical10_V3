@@ -180,7 +180,7 @@ function ContactPage() {
                     <div className="alert alert-success alert-dismissible fade show" role="alert">
                         <i className="fas fa-check-circle me-2"></i>
                         {successMessage}
-                        <button 
+                        <button title="Close"
                             type="button" 
                             className="btn-close" 
                             onClick={() => setSuccessMessage('')}
@@ -459,7 +459,7 @@ function ContactPage() {
                                     </div>
                                     <p className="card-text small mb-3">Speak directly with our team for immediate assistance.</p>
                                     <a 
-                                        href="tel:+11234567890" 
+                                        href="tel:+918264768346" 
                                         className="btn btn-info w-100"
                                     >
                                         <i className="fas fa-phone me-2"></i>
@@ -490,9 +490,9 @@ function ContactPage() {
                                 Studio Location
                             </h5>
                             <p className="mb-0">
-                                123 Photography Street<br />
-                                Creative District<br />
-                                Los Angeles, CA 90210
+                                somwhere in the world, Earth
+                                <br />
+                                Naeshby studio
                             </p>
                         </div>
                     </div>

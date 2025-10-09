@@ -35,7 +35,7 @@ function HomePage() {
                             <a href="#services" className="btn btn-primary-custom mt-3">Our Services</a>
                         </div>
                         <div className="col-md-6">
-                            <img src="../img/profile.jpg" alt="About Naeshby" className="img-fluid rounded shadow" />
+                            <img src="components/img/profile.jpg" alt="About Naeshby" className="img-fluid rounded shadow" />
                         </div>
                     </div>
                 </div>
@@ -47,19 +47,19 @@ function HomePage() {
                     <h2 className="section-title text-center">Featured Work</h2>
                     <div className="gallery-grid">
                         <div className="gallery-item">
-                            <img src="../img/wedding.jpg" alt="Wedding Photography" />
+                            <img src="components/img/wedding.jpg" alt="Wedding Photography" />
                             <div className="p-3">
                                 <h5 className="mb-0">Wedding Photography</h5>
                             </div>
                         </div>
                         <div className="gallery-item">
-                            <img src="../img/portrait2.jpg" alt="Portrait Photography" />
+                            <img src="components/img/portrait.jpg" alt="Portrait Photography" />
                             <div className="p-3">
                                 <h5 className="mb-0">Portrait Session</h5>
                             </div>
                         </div>
                         <div className="gallery-item">
-                            <img src="../img/event.jpg" alt="Event Photography" />
+                            <img src="components/img/event.jpg" alt="Event Photography" />
                             <div className="p-3">
                                 <h5 className="mb-0">Corporate Event</h5>
                             </div>
