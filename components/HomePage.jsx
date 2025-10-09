@@ -29,13 +29,13 @@ function HomePage() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <h2 className="section-title">About FocusFrame</h2>
-                            <p>With over 10 years of experience, FocusFrame Photography specializes in capturing life's most precious moments. Our team of professional photographers is dedicated to creating stunning images that tell your unique story.</p>
+                            <h2 className="section-title">About Naeshby</h2>
+                            <p>With over 10 years of experience, Naeshby Photography specializes in capturing life's most precious moments. Our team of professional photographers is dedicated to creating stunning images that tell your unique story.</p>
                             <p>We believe that every moment is worth preserving, and we're passionate about creating beautiful, timeless photographs that you'll cherish for years to come.</p>
                             <a href="#services" className="btn btn-primary-custom mt-3">Our Services</a>
                         </div>
                         <div className="col-md-6">
-                            <img src="https://placehold.co/600x400" alt="About FocusFrame" className="img-fluid rounded shadow" />
+                            <img src="components/img/profile.jpg" alt="About Naeshby" className="img-fluid rounded shadow" />
                         </div>
                     </div>
                 </div>
@@ -47,19 +47,19 @@ function HomePage() {
                     <h2 className="section-title text-center">Featured Work</h2>
                     <div className="gallery-grid">
                         <div className="gallery-item">
-                            <img src="https://placehold.co/400x300" alt="Wedding Photography" />
+                            <img src="components/img/wedding.jpg" alt="Wedding Photography" />
                             <div className="p-3">
                                 <h5 className="mb-0">Wedding Photography</h5>
                             </div>
                         </div>
                         <div className="gallery-item">
-                            <img src="https://placehold.co/400x300" alt="Portrait Photography" />
+                            <img src="components/img/portrait.jpg" alt="Portrait Photography" />
                             <div className="p-3">
                                 <h5 className="mb-0">Portrait Session</h5>
                             </div>
                         </div>
                         <div className="gallery-item">
-                            <img src="https://placehold.co/400x300" alt="Event Photography" />
+                            <img src="components/img/event.jpg" alt="Event Photography" />
                             <div className="p-3">
                                 <h5 className="mb-0">Corporate Event</h5>
                             </div>

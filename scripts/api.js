@@ -135,3 +135,81 @@ const getWeatherIcon = (weatherCode) => {
     };
     return iconMap[weatherCode] || '🌈';
 };
+
+// Contact and WhatsApp integration functions
+
+// WhatsApp message formatting
+const formatWhatsAppMessage = (formData) => {
+    return `New Photography Inquiry
+
+Name: ${formData.name}
+Email: ${formData.email}
+Service: ${formData.service}
+Message: ${formData.message}
+
+Sent from Naeshby Photography Website`.trim();
+};
+
+// Email message formatting
+const formatEmailMessage = (formData) => {
+    return `New Photography Inquiry
+
+Name: ${formData.name}
+Email: ${formData.email}
+Service: ${formData.service}
+Message: ${formData.message}
+
+This inquiry was sent from the Naeshby Photography website.`.trim();
+};
+
+// Generate WhatsApp URL
+const generateWhatsAppUrl = (formData) => {
+    const message = formatWhatsAppMessage(formData);
+    const encodedMessage = encodeURIComponent(message);
+    const phoneNumber = '918264768346'; // REPLACE WITH YOUR NUMBER
+    return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+};
+
+// Generate Email URL
+const generateEmailUrl = (formData) => {
+    const subject = `New Photography Inquiry from ${formData.name}`;
+    const body = formatEmailMessage(formData);
+    return `mailto:indianaeshby@gmail.com.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+};
+
+// Form validation
+const validateContactForm = (formData) => {
+    const errors = [];
+    
+    if (!formData.name?.trim()) {
+        errors.push('Name is required');
+    }
+    
+    if (!formData.email?.trim()) {
+        errors.push('Email is required');
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+        errors.push('Please enter a valid email address');
+    }
+    
+    if (!formData.service?.trim()) {
+        errors.push('Please select a service');
+    }
+    
+    if (!formData.message?.trim()) {
+        errors.push('Message is required');
+    } else if (formData.message.trim().length < 10) {
+        errors.push('Please provide a more detailed message (at least 10 characters)');
+    }
+    
+    return {
+        isValid: errors.length === 0,
+        errors: errors
+    };
+};
+
+// Quick contact links
+const quickContactLinks = {
+    whatsapp: 'https://wa.me/1234567890?text=Hello%20Naeshby%20Photography!%20I%20would%20like%20to%20inquire%20about%20your%20services.',
+    email: 'mailto:info@Naeshby.com?subject=Photography%20Inquiry&body=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20photography%20services.',
+    phone: 'tel:+11234567890'
+};
