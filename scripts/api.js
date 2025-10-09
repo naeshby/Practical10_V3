@@ -66,13 +66,13 @@ const fetchGalleryData = async () => {
             { 
                 id: 6, 
                 category: 'portrait', 
-                title: 'Family Portrait', 
+                title: 'Portrait', 
                 image: 'components/img/portrait3.jpg' 
             },
             { 
                 id: 7, 
                 category: 'event', 
-                title: 'Birthday Celebration', 
+                title: 'Graduation', 
                 image: 'components/img/portrait2.jpg' 
             },
             { 
