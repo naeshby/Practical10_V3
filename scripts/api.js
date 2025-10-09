@@ -31,55 +31,55 @@ const fetchWeatherData = async () => {
 // Fetch gallery data
 const fetchGalleryData = async () => {
     try {
-        // Using placeholder images from placehold.co with different categories
+        
         const galleryData = [
             { 
                 id: 1, 
                 category: 'wedding', 
                 title: 'Wedding Photography', 
-                image: 'https://placehold.co/600x400/4A306D/FFFFFF?text=Wedding+Photo&font=oswald' 
+                image: 'components/img/wedding.jpg' 
             },
             { 
                 id: 2, 
                 category: 'portrait', 
                 title: 'Portrait Session', 
-                image: 'https://placehold.co/600x400/1A535C/FFFFFF?text=Portrait+Session&font=oswald' 
+                image: 'components/img/Portrait.jpg' 
             },
             { 
                 id: 3, 
                 category: 'event', 
                 title: 'Corporate Event', 
-                image: 'https://placehold.co/600x400/4ECDC4/000000?text=Corporate+Event&font=oswald' 
+                image: 'components/img/event.jpg' 
             },
             { 
                 id: 4, 
                 category: 'nature', 
                 title: 'Nature Photography', 
-                image: 'https://placehold.co/600x400/45B69C/FFFFFF?text=Nature+Photo&font=oswald' 
+                image: 'https://images.unsplash.com/photo-1506260408121-e353d10b87c7?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
             },
             { 
                 id: 5, 
                 category: 'wedding', 
                 title: 'Outdoor Wedding', 
-                image: 'https://placehold.co/600x400/6A4C93/FFFFFF?text=Outdoor+Wedding&font=oswald' 
+                image: 'components/img/wedding2.jpg' 
             },
             { 
                 id: 6, 
                 category: 'portrait', 
                 title: 'Family Portrait', 
-                image: 'https://placehold.co/600x400/1A535C/FFFFFF?text=Family+Portrait&font=oswald' 
+                image: 'components/img/portrait3.jpg' 
             },
             { 
                 id: 7, 
                 category: 'event', 
                 title: 'Birthday Celebration', 
-                image: 'https://placehold.co/600x400/F4A261/000000?text=Birthday+Party&font=oswald' 
+                image: 'components/img/portrait2.jpg' 
             },
             { 
                 id: 8, 
                 category: 'nature', 
                 title: 'Landscape', 
-                image: 'https://placehold.co/600x400/2A9D8F/FFFFFF?text=Landscape&font=oswald' 
+                image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
             }
         ];
         
