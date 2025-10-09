@@ -1,4 +1,4 @@
-# Naeshby Photography — Practical10_V3
+# Naeshby Photography — Practical 10
 
 This is a small static portfolio website project for "Naeshby Photography". It's structured as a simple React-enabled static site (using in-browser Babel for development) and uses Bootstrap for layout and styling. The project showcases a hero header with an overlay navigation bar that transitions to a compact, solid navbar after you scroll past the hero.
 
