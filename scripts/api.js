@@ -147,7 +147,7 @@ Email: ${formData.email}
 Service: ${formData.service}
 Message: ${formData.message}
 
-Sent from FocusFrame Photography Website`.trim();
+Sent from Naeshby Photography Website`.trim();
 };
 
 // Email message formatting
@@ -159,7 +159,7 @@ Email: ${formData.email}
 Service: ${formData.service}
 Message: ${formData.message}
 
-This inquiry was sent from the FocusFrame Photography website.`.trim();
+This inquiry was sent from the Naeshby Photography website.`.trim();
 };
 
 // Generate WhatsApp URL
@@ -209,7 +209,7 @@ const validateContactForm = (formData) => {
 
 // Quick contact links
 const quickContactLinks = {
-    whatsapp: 'https://wa.me/1234567890?text=Hello%20FocusFrame%20Photography!%20I%20would%20like%20to%20inquire%20about%20your%20services.',
-    email: 'mailto:info@focusframe.com?subject=Photography%20Inquiry&body=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20photography%20services.',
+    whatsapp: 'https://wa.me/1234567890?text=Hello%20Naeshby%20Photography!%20I%20would%20like%20to%20inquire%20about%20your%20services.',
+    email: 'mailto:info@Naeshby.com?subject=Photography%20Inquiry&body=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20photography%20services.',
     phone: 'tel:+11234567890'
 };

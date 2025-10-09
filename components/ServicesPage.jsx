@@ -36,7 +36,7 @@ function ServicesPage() {
                     testimonials: [
                         {
                             id: 1,
-                            text: "FocusFrame captured our wedding day perfectly! The photos are absolutely stunning and bring back all the emotions of that special day.",
+                            text: "Naeshby captured our wedding day perfectly! The photos are absolutely stunning and bring back all the emotions of that special day.",
                             author: "Sarah & Michael"
                         },
                         {
