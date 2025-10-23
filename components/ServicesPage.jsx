@@ -56,12 +56,12 @@ function ServicesPage() {
                 setTestimonials(mockData.testimonials);
                 
                 // Real implementation:
-                /*
-                const response = await fetch('data/services.json');
+                
+               /*  const response = await fetch('data/services.json');
                 const data = await response.json();
                 setServicesData(data.services);
                 setTestimonials(data.testimonials);
-                */
+                 */
             } catch (error) {
                 console.error('Error fetching services data:', error);
             }
