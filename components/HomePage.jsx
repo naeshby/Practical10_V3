@@ -59,7 +59,7 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="gallery-item">
-                            <img src="components/img/portrait.jpg" alt="Portrait Photography" />
+                            <img src="components/img/Portrait.jpg" alt="Portrait Photography" />
                             <div className="p-3">
                                 <h5 className="mb-0">Portrait Session</h5>
                             </div>
